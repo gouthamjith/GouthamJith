@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Services | Goutham Jith</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    body {
+      background: #0a0a0a;
+      font-family: 'Inter', sans-serif;
+      color: white;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: auto;
+      padding: 4rem 1.5rem;
+    }
+
+    .service-box {
+      background: #111111;
+      border: 1px solid #1f1f1f;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: all 0.3s ease;
+    }
+
+    .service-box:hover {
+      border-color: #333;
+      transform: scale(1.015);
+    }
+
+    .service-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .service-description {
+      color: #ccc;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 3rem;
+      color: #999;
+      font-size: 0.9rem;
+      text-decoration: underline;
+    }
+
+    a.back-link:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="section" data-aos="fade-up">
+    <h1 class="text-4xl font-bold text-center mb-10">What I Do</h1>
+
+    <!-- Service 1 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+      <div class="service-title">Search Enging Marketing</div>
+      <p class="service-description">
+        I run laser-targeted Google ads that appear exactly when people search — turning intent into instant traffic and conversions.
+      </p>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+      <div class="service-title">Social Media Marketing</div>
+      <p class="service-description">
+        I help brands grow organically and virally by using platform-native content strategies. It’s not about just posting — it’s about making people care.
+      </p>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+      <div class="service-title">Search Engine Optimization (SEO)</div>
+      <p class="service-description">
+        I improve your search visibility by fixing on-page issues, optimizing keywords, and building authority. Long-term growth without paying for clicks.
+      </p>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="400">
+      <div class="service-title">Meme Marketing</div>
+      <p class="service-description">
+        Memes make people stop scrolling. I create culturally relevant content that speaks your audience's language — funny, fast, and viral.
+      </p>
+    </div>
+
+    <div class="text-center">
+      <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 600, once: true });</script>
+</body>
+</html>
